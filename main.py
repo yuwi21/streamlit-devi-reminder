@@ -102,7 +102,7 @@ if selected == "🏠 Beranda":
         """, unsafe_allow_html=True)
 
     with col2:
-        st.image("2.png", caption=None, use_column_width=True)
+        st.image("2.png", caption=None, use_container_width=True)
 
     # Deskripsi bawah
     st.markdown("""
